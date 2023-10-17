@@ -1,8 +1,11 @@
 # easy-edit
  An application that edits books using GPT-3 by using openAI api.
-![Screen Shot 2023-09-29 at 11 00 07 AM](https://github.com/leylamemiguven/easy-edit-testing/assets/55370017/49029d54-4733-4bef-a284-3a786c0e5ab6)
+
 1)Select the genre of your book.
-![Screen Shot 2023-09-29 at 11 00 19 AM](https://github.com/leylamemiguven/easy-edit-testing/assets/55370017/04ffb251-99d1-40c9-a3c7-f702dfe55f7a)
+![Screen Shot 2023-10-16 at 8 42 14 PM](https://github.com/leylamemiguven/easy-edit/assets/55370017/e5ea5595-cc3c-48ec-ad94-697e4faf9e19)
+
 2)Upload your book.
-![Screen Shot 2023-09-29 at 11 00 33 AM](https://github.com/leylamemiguven/easy-edit-testing/assets/55370017/3538a472-5e05-4adb-8cda-2ffacc8b3115)
+![Screen Shot 2023-10-16 at 8 42 31 PM](https://github.com/leylamemiguven/easy-edit/assets/55370017/6b071655-8d53-4c11-8df7-69523eb99587)
+
 3) Get professional edit suggestions and explanations!
+![Screen Shot 2023-10-16 at 8 42 45 PM](https://github.com/leylamemiguven/easy-edit/assets/55370017/5c592efe-00df-45a7-90fb-dd684df50394)
