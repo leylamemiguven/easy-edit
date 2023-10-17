@@ -1,0 +1,359 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;1,300&display=swap');
+
+
+body {
+  font-family: 'Lato', sans-serif;
+  line-height: 1.5;
+  font-weight: 300;
+  color-scheme: light dark;
+  background-color: #242424;
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+
+.app-wrapper {
+  display: flex;
+  align-items: space-between; 
+  flex-direction: column;
+  height: 100vh;
+  
+  
+}
+
+.main-content {
+  flex: 1; /* Take up remaining vertical space */
+  padding: 0 3em;
+  
+}
+
+a {
+  font-weight: 500;
+  color: #E0455F;
+  text-decoration: inherit;
+}
+a:hover {
+  color: white;
+
+}
+
+p{
+  font-size: 16px;
+}
+
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2em 3em;
+
+}
+
+label{
+  padding-right: 1em;
+}
+
+input, textarea{
+  font-family: 'Lato', sans-serif;
+  line-height: 1.5;
+  padding: 0.5em;
+  background-color: #242424;
+  border: 2px solid #E0455F;
+  border-radius: 8px;
+}
+
+.form-section{
+  padding: 0.5em 0;
+}
+
+  /* Home Page */
+
+  header{
+    padding: 2em;
+    border-radius: 20px;
+  }
+  .home-banner{
+    width:100%;
+    opacity: 0.5;
+  }
+  .gpt3{
+    color: orange;
+  }
+  .book-editor-title{
+    color:#E0455F;
+    font-weight: 100;
+  }
+
+  .subtitle{
+    padding: 1em 0;
+  }
+
+  .explanation{
+    padding: 2em 0;
+  }
+
+
+.services-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); /* Adjust the minimum and maximum width as needed */
+  gap: 10px; /* Adjust the spacing between items */
+  justify-content: center;
+  align-items: center;
+  padding: 2em 0;
+}
+
+.services-offered, .services-notoffered{
+  padding: 0.5em 1em;
+  border-radius: 10px;
+  text-align: center;
+}
+
+
+.services-offered{
+  border: 2px solid #E0455F;
+}
+
+.services-notoffered{
+  border: 1px solid orange;
+
+}
+
+  .demo{
+    width: 100%;
+    margin: auto;
+    /* padding: 0.5em 0; */
+    /* border: 2px solid #E0455F; */
+  }
+
+/* /Home Page */
+
+/* About Page */
+
+.about-info{
+  margin: auto;
+}
+
+.editor{
+  display:flex;
+  justify-content: space-between;
+  padding-top: 1em;
+}
+
+.form-submit-btn, .see-edits-btn, .start-editing-btn, .contact-submit-btn{
+  width: 100%;
+  padding: 2em;
+  margin: 1em 0;
+  background-color: #E0455F;
+
+}
+
+.aboutPart{
+  display:flex;
+  padding: 1em 0;
+}
+
+.about-text{
+  padding:3em;
+  margin:auto;
+}
+
+.about-img{
+  width: 20%;
+  height:20%;
+  border: 2px solid orange;
+  border-radius: 15px;
+}
+
+
+
+/* Edits Page  */
+.ql-editor{
+  font-family: 'Lato',sans-serif;
+  font-size: 16px;
+}
+
+
+
+.edited-text{
+  padding-right: 1em;
+  width: 50%;
+  
+}
+
+.explanations{
+  width: 50%;
+
+}
+
+.edited-text-title, .explanations-title{
+  color: #E0455F;
+  font-weight: 400;
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center items horizontally */
+  }
+  
+  .navbar nav {
+    display: none; /* Hide the navigation links */
+  }
+
+  .main-content, .about{
+    text-align: center;
+  }
+  .editor{
+    display: block;
+  }
+  .edited-text{
+    width:100%;
+  }
+  .explanations{
+    width:100%;
+  }
+  .services-container {
+    grid-template-columns: repeat(auto-fill, minmax(120px, 1fr)); /* Adjust for smaller screens */
+  }
+  .aboutPart{
+    flex-direction: column;
+  }
+  .about-img{
+    margin:auto;
+    width: 50%;
+    height:50%;
+  }
+
+  
+  /* Show navigation links when the collapsible button is clicked */
+  .navbar.show-nav nav {
+    display: block;
+    margin-top: 1em;
+  }
+}
+
+.collapsible-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0.5em;
+}
+
+.menu-icon {
+  font-size: 1.5em;
+}
+
+nav a{
+  padding: 0 2em;
+}
+
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+button, .contact-submit-btn {
+  color: white;
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  /* background-color: #1a1a1a; */
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover, .contact-submit-btn:hover{
+
+  background: #812736;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+
+.checkmark, .crossmark{
+  padding: 0 0.3em;
+  margin-right: 5px;
+}
+
+.checkmark{
+  color:greenyellow;
+}
+.crossmark{
+  color: red;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+  }
+  a:hover {
+    color: #E0455F;
+  }
+  button {
+    color: #f9f9f9;
+    background-color:#E0455F;
+  }
+}
+
+.book-info{
+  display:flex;
+  justify-content: space-between;
+}
+
+.book-title{
+  text-align: center;
+  padding-top: 2em;
+}
+
+.loading-animation {
+  width: 50px;
+  height: 50px;
+  border: 4px solid #f3f3f3;
+  border-top: 4px solid #E0455F;
+  border-radius: 50%;
+  animation: spin 2s linear infinite;
+  margin: 1em auto;
+
+
+}
+
+.loading-percentage{
+  text-align: center;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+
+.square-bracket {
+  color: orange; /* Choose your desired color */
+  font-weight: bold;
+}
+
+
+
+.footer {
+  flex: 0; /* Do not take up remaining vertical space */
+  background-color: #211e1e;
+  text-align: center;
+  padding: 2em;
+  color: white; /* Add text color to make it visible */
+}
+
+
+/* Contact Page */
+
+.formPart{
+  padding: 1em 0;
+  display: flex;
+  flex-direction: column;
+}
