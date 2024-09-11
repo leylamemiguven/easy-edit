@@ -18,3 +18,5 @@ npm install && npm run dev
 
 3) Get professional edit suggestions and explanations!
 ![Screen Shot 2023-10-16 at 8 42 45 PM](https://github.com/leylamemiguven/easy-edit/assets/55370017/5c592efe-00df-45a7-90fb-dd684df50394)
+
+Feel free to enhance or customize this project as needed!
