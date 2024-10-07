@@ -1,5 +1,6 @@
 # Easy Edit, the GPT-3 Powered Book Editor
- An application that offers book editing suggestings with the help of GPT-3 by using openAI api.
+The app allows users to upload their books and receive edit suggestions similar to those from a professional editor,
+focusing on word choice, grammar, punctuation, and overall clarity.
  
 ## Getting Started
 To get started running the application locally, run:
